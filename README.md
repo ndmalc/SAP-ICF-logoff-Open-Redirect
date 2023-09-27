@@ -14,7 +14,7 @@ The vulnerability is very easy to exploit.
 curl -v -L {BaseURL}/sap/public/bc/icf/logoff?redirecturl=https://example.com
 ```
 
-An HTTP redirection based on `location` HTTP header is performed. It follows the URL given in `redirecturl`
+An HTTP redirection based on `location` HTTP header is performed. It follows the URL given in `redirecturl`.
 
 ## What is the impact ?
 
